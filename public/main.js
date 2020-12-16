@@ -1,6 +1,6 @@
 var message;
 
-var socket = io.connect('http://localhost:8080', { 'forceNew': true });
+var socket = io.connect('https://mirichatsito.herokuapp.com', { 'forceNew': true });
 //Parte del cliente conectamos con localhost
 //escuchamos el evento messages
 // data tendr� el array de mensajes  que env�a el servidor
